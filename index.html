@@ -64,7 +64,10 @@
   .latest-section { background: var(--off-white); }
   .latest-header { display: flex; justify-content: space-between; gap: 2rem; align-items: end; flex-wrap: wrap; }
   .latest-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; margin-top: 3rem; }
-  .find-card { background: white; border: 1px solid var(--border); border-radius: 20px; padding: 1.35rem; min-height: 210px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 10px 28px rgba(233,30,140,0.08); }
+  .find-card { background: white; border: 1px solid var(--border); border-radius: 20px; min-height: 210px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 10px 28px rgba(233,30,140,0.08); }
+  .find-media { aspect-ratio: 394 / 514; background: var(--pink-pale); overflow: hidden; }
+  .find-media img { width: 100%; height: 100%; display: block; object-fit: cover; }
+  .find-body { padding: 1.35rem; display: flex; flex: 1; flex-direction: column; justify-content: space-between; }
   .find-top { display: flex; justify-content: space-between; gap: 1rem; align-items: start; margin-bottom: 1rem; }
   .find-store { background: var(--pink-pale); color: var(--pink); border-radius: 50px; padding: 0.3rem 0.75rem; font-size: 0.72rem; font-weight: 700; white-space: nowrap; }
   .find-tag { color: var(--dark); font-size: 0.72rem; font-weight: 800; line-height: 1.2; letter-spacing: 1px; text-transform: uppercase; text-align: right; max-width: 8rem; }
@@ -174,70 +177,100 @@
     </div>
     <div class="latest-grid">
       <div class="find-card">
-        <div>
+        <div class="find-media">
+          <img src="assets/finds/jeans-tops.jpg" alt="Jeans and tops spotted on a RetailRefine TikTok rack find">
+        </div>
+        <div class="find-body">
+          <div>
           <div class="find-top">
             <span class="find-store">Rack find</span>
             <span class="find-tag">Outfit pull</span>
           </div>
           <h3>Jeans &amp; tops</h3>
           <p>Simple pairings that make a quick store run feel like a styled outfit idea.</p>
+          </div>
+          <div class="find-note">Strong clip hook</div>
         </div>
-        <div class="find-note">Strong clip hook</div>
       </div>
       <div class="find-card">
-        <div>
+        <div class="find-media">
+          <img src="assets/finds/dr-martens.jpg" alt="Dr. Martens spotted at Ross on RetailRefine TikTok">
+        </div>
+        <div class="find-body">
+          <div>
           <div class="find-top">
             <span class="find-store">Ross</span>
             <span class="find-tag">Shoe shelf</span>
           </div>
           <h3>Dr. Martens at Ross</h3>
           <p>Brand-name shoe finds that make the extra shelf check feel worth it.</p>
+          </div>
+          <div class="find-note">Brand find</div>
         </div>
-        <div class="find-note">Brand find</div>
       </div>
       <div class="find-card">
-        <div>
+        <div class="find-media">
+          <img src="assets/finds/purse-selection.jpg" alt="Purse selection from a RetailRefine shopping haul">
+        </div>
+        <div class="find-body">
+          <div>
           <div class="find-top">
             <span class="find-store">TJ Maxx</span>
             <span class="find-tag">Purse scan</span>
           </div>
           <h3>Purse selection</h3>
           <p>Accessory rows with the kind of color, shape, and detail that stop the scroll.</p>
+          </div>
+          <div class="find-note">Accessory pick</div>
         </div>
-        <div class="find-note">Accessory pick</div>
       </div>
       <div class="find-card">
-        <div>
+        <div class="find-media">
+          <img src="assets/finds/sneakers-under-50.jpg" alt="Sneakers for fifty dollars and under from a RetailRefine TikTok find">
+        </div>
+        <div class="find-body">
+          <div>
           <div class="find-top">
             <span class="find-store">Ross</span>
             <span class="find-tag">$50 &amp; under</span>
           </div>
           <h3>Sneakers for $50 &amp; under</h3>
           <p>Price-led shoe finds worth checking before the best sizes disappear.</p>
+          </div>
+          <div class="find-note">Shoe find</div>
         </div>
-        <div class="find-note">Shoe find</div>
       </div>
       <div class="find-card">
-        <div>
+        <div class="find-media">
+          <img src="assets/finds/swimsuit-haul.jpg" alt="Colorful swimsuit and dress haul from RetailRefine TikTok">
+        </div>
+        <div class="find-body">
+          <div>
           <div class="find-top">
             <span class="find-store">Marshalls</span>
             <span class="find-tag">Dress haul</span>
           </div>
           <h3>Summer dress haul</h3>
           <p>Light pieces, prints, and warm-weather finds that translate fast on video.</p>
+          </div>
+          <div class="find-note">Seasonal pick</div>
         </div>
-        <div class="find-note">Seasonal pick</div>
       </div>
       <div class="find-card">
-        <div>
+        <div class="find-media">
+          <img src="assets/finds/style-finds.jpg" alt="Statement style find from a RetailRefine TikTok rack video">
+        </div>
+        <div class="find-body">
+          <div>
           <div class="find-top">
             <span class="find-store">Rack find</span>
             <span class="find-tag">Style find</span>
           </div>
           <h3>Statement finds</h3>
           <p>The bolder pieces that turn a rack video into a quick taste check.</p>
+          </div>
+          <div class="find-note">Taste filter</div>
         </div>
-        <div class="find-note">Taste filter</div>
       </div>
     </div>
   </div>
