@@ -67,7 +67,7 @@
   .find-card { background: white; border: 1px solid var(--border); border-radius: 20px; padding: 1.35rem; min-height: 210px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 10px 28px rgba(233,30,140,0.08); }
   .find-top { display: flex; justify-content: space-between; gap: 1rem; align-items: start; margin-bottom: 1rem; }
   .find-store { background: var(--pink-pale); color: var(--pink); border-radius: 50px; padding: 0.3rem 0.75rem; font-size: 0.72rem; font-weight: 700; white-space: nowrap; }
-  .find-price { font-family: 'Playfair Display', serif; color: var(--dark); font-size: 1.8rem; font-weight: 900; line-height: 1; }
+  .find-tag { color: var(--dark); font-size: 0.72rem; font-weight: 800; line-height: 1.2; letter-spacing: 1px; text-transform: uppercase; text-align: right; max-width: 8rem; }
   .find-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.55rem; }
   .find-card p { color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
   .find-note { color: var(--pink); font-size: 0.78rem; font-weight: 700; margin-top: 1.25rem; text-transform: uppercase; letter-spacing: 1px; }
@@ -111,7 +111,7 @@
     .nav-links { display: none; }
     .nav-cta { display: none; }
     .hero { min-height: 76vh; padding: 5.5rem 1.25rem 2.5rem; }
-    h1 { font-size: clamp(1.5rem, 8vw, 1.85rem); max-width: 17rem; }
+    h1 { font-size: clamp(1.5rem, 8vw, 1.85rem); max-width: 19rem; }
     .hero-sub { max-width: 18rem; }
     .hero-btns { width: 100%; max-width: 18rem; }
     .btn-primary, .btn-secondary { width: 100%; justify-content: center; padding-left: 1rem; padding-right: 1rem; }
@@ -144,7 +144,7 @@
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-badge"><span class="dot"></span> Fresh finds from the rack</div>
-  <h1>Hunting the <span>gems</span><br>so you don't have to 💎</h1>
+  <h1>Hunting the <span>gems</span><br>so you don't have to</h1>
   <p class="hero-sub">Your inside track on the best deals at Ross, TJ Maxx, Marshalls &amp; more. Real stores. Real prices. No fluff.</p>
   <div class="hero-btns">
     <a class="btn-primary" href="https://www.tiktok.com/@retailrefine" target="_blank">
@@ -177,32 +177,32 @@
         <div>
           <div class="find-top">
             <span class="find-store">Ross</span>
-            <span class="find-price">$24.99</span>
+            <span class="find-tag">Vest check</span>
           </div>
-          <h3>Spring dress rack pull</h3>
-          <p>Easy warm-weather pieces worth checking before the best sizes are gone.</p>
+          <h3>Vests at Ross</h3>
+          <p>Layering pieces, work outfit pulls, and easy rack wins from current Ross runs.</p>
         </div>
-        <div class="find-note">Style find</div>
+        <div class="find-note">Rack find</div>
       </div>
       <div class="find-card">
         <div>
           <div class="find-top">
-            <span class="find-store">TJ Maxx</span>
-            <span class="find-price">$39.99</span>
+            <span class="find-store">Marshalls</span>
+            <span class="find-tag">Set scan</span>
           </div>
-          <h3>Matching set spotted</h3>
-          <p>A polished two-piece look for less than one full-price boutique item.</p>
+          <h3>Marshalls sets</h3>
+          <p>Matching sets and easy outfit pieces that make the aisle check worth it.</p>
         </div>
         <div class="find-note">Outfit idea</div>
       </div>
       <div class="find-card">
         <div>
           <div class="find-top">
-            <span class="find-store">Marshalls</span>
-            <span class="find-price">$29.99</span>
+            <span class="find-store">TJ Maxx</span>
+            <span class="find-tag">Bag hunt</span>
           </div>
-          <h3>Beaded mini bag</h3>
-          <p>A going-out accessory with enough detail to carry a simple outfit.</p>
+          <h3>Summer beaded bags</h3>
+          <p>Colorful accessory finds with enough detail to carry a simple outfit.</p>
         </div>
         <div class="find-note">Accessory pick</div>
       </div>
@@ -210,32 +210,32 @@
         <div>
           <div class="find-top">
             <span class="find-store">Ross</span>
-            <span class="find-price">$49.99</span>
+            <span class="find-tag">$50 &amp; under</span>
           </div>
-          <h3>Name-brand sneakers</h3>
-          <p>The kind of shelf surprise that makes the extra aisle check worth it.</p>
+          <h3>Sneaker shelf check</h3>
+          <p>Price-led shoe finds worth checking before the best sizes disappear.</p>
         </div>
         <div class="find-note">Shoe find</div>
       </div>
       <div class="find-card">
         <div>
           <div class="find-top">
-            <span class="find-store">TJ Maxx</span>
-            <span class="find-price">$16.99</span>
+            <span class="find-store">Ross</span>
+            <span class="find-tag">Under $25</span>
           </div>
-          <h3>Summer accessory stack</h3>
-          <p>Small pieces that make a basic outfit feel more styled without a big cart total.</p>
+          <h3>Ross PJ sets</h3>
+          <p>Lounge pieces, soft sets, and low-ticket finds hiding in plain sight.</p>
         </div>
-        <div class="find-note">Budget add-on</div>
+        <div class="find-note">Budget find</div>
       </div>
       <div class="find-card">
         <div>
           <div class="find-top">
             <span class="find-store">Marshalls</span>
-            <span class="find-price">$34.99</span>
+            <span class="find-tag">Dress haul</span>
           </div>
-          <h3>Work-to-weekend dress</h3>
-          <p>A practical closet piece that works for office days, brunch, and travel.</p>
+          <h3>Work-to-weekend pulls</h3>
+          <p>Dresses and closet pieces that can move from errands to going out.</p>
         </div>
         <div class="find-note">Closet staple</div>
       </div>
